@@ -17,10 +17,7 @@
 // write your code here
 
 
-
-
-
-
+var person = ("Alif", 31)
 
 
 /*: question2
@@ -28,18 +25,14 @@
  */
 // write your code here
 
-
-
-
-
-
-
+print(person.0)
+print(person.1)
 
 /*: question3
  ### 3. It is the person's birthday! Increment the person's age by one year that you created in Question 1.
  */
 // write your code here
-
+person.1 + 1
 
 
 
@@ -52,10 +45,7 @@
  */
 // write your code here
 
-
-
-
-
+print("Happy \(person.0) birthday, \(person.1)!")
 
 
 
@@ -64,10 +54,7 @@
  */
 // write your code here
 
-
-
-
-
+var someone = (name: "Alif", age: 31)
 
 
 
@@ -76,7 +63,7 @@
  */
 // write your code here
 
-
+print("\(someone.name) is \(someone.age) years old")
 
 
 
@@ -89,7 +76,7 @@
 
 
 
-
+someone.age + 1
 
 
 
@@ -100,7 +87,7 @@
 
 
 
-
+print("Happy \(someone.age) birthday, \(someone.name)!")
 
 
 
@@ -111,7 +98,7 @@
 // write your code here
 
 
-
+let human = (name: "Anastasia", age: 24)
 
 
 
@@ -121,11 +108,6 @@
  ### 10. Can you change `human`'s age? Why or why not?
  */
 
-
-
-
-
-
-
+// i cant change it becz is constant
 
 //: Check [here](https://github.com/learn-co-curriculum/swift-tuples-lab/blob/solution/Tuples.playground/Pages/solution.xcplaygroundpage/Contents.swift) for the solution.
